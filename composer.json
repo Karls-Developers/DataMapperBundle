@@ -1,0 +1,21 @@
+{
+    "name": "karls/data-mapper-bundle",
+    "version": "1.0.0",
+    "type": "symfony-bundle",
+    "description": "Mapping old data JSON to new data JSON from unite-cms.",
+    "require": {
+        "unite-cms/core-bundle": "^0.7"
+    },
+    "autoload": {
+        "psr-4": { "Karls\\DataMapperBundle\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Benedict Lojewski",
+            "email": "lojewski@karls.de"
+        }
+    ]
+}

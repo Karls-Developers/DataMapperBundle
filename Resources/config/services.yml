@@ -1,0 +1,7 @@
+# Register all commands as services
+services:
+  Karls\DataMapperBundle\Command\DataMappingCommand:
+    arguments: ['@doctrine.orm.default_entity_manager']
+    tags:
+    - { name: 'console.command', command: 'karls:data-mapping' }
+
