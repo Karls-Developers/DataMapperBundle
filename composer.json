@@ -1,10 +1,11 @@
 {
     "name": "karls/data-mapper-bundle",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "type": "symfony-bundle",
-    "description": "Mapping old data JSON to new data JSON from unite-cms.",
+    "description": "Data Mapping Bundle for refactoring different scenarios",
     "require": {
-        "unite-cms/core-bundle": "^0.7"
+        "unite-cms/core-bundle": ">=0.8",
+        "mashape/unirest-php": "^3.0"
     },
     "autoload": {
         "psr-4": { "Karls\\DataMapperBundle\\": "" },
