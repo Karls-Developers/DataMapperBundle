@@ -40,7 +40,7 @@ Please select the type/s which to refactor:
   [2] image
  > mediaimage,image
 ```
-Now the Command should execute and search for images that have a no UUID and fixes them.
+Now the Command should execute and search for images that have no UUID and fixes them.
 
 ---
 #### Data Mapping
